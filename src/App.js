@@ -197,7 +197,7 @@ function App() {
           variants={itemVariants}
         >
           <motion.h1 
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-green-400 mb-2 sm:mb-4"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-green-400 mt-20 sm:mt-20 mb-2 sm:mb-4"
             initial={{ y: -40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -205,12 +205,12 @@ function App() {
             Random Word Generator
           </motion.h1>
           <motion.p 
-            className="text-sm sm:text-base text-green-300 max-w-2xl mx-auto"
+            className="text-sm sm:text-base text-green-300 max-w-2xl mt-6 mx-auto"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            Generate random words from the internet for your creative projects, writing, and brainstorming
+            Generate random words for your creative projects, writing, and brainstorming
           </motion.p>
         </motion.div>
         
